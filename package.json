@@ -1,0 +1,32 @@
+{
+  "name": "stellar-keystore-js-postgresql",
+  "version": "0.1.0",
+  "description": "PostgreSQL storage plugin for the stellar-wallet-keystore service.",
+  "author": "StellarExpert team",
+  "license": "MIT",
+  "homepage": "https://github.com/orbitlens/stellar-wallet-keystore-postgresql-provider",
+  "bugs": {
+    "url": "https://github.com/orbitlens/stellar-wallet-keystore-postgresql-provider/issues",
+    "email": "orbit.lens@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orbitlens/stellar-wallet-keystore-postgresql-provider.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "stellar",
+    "stellar-wallet-keystore",
+    "postgresql"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^7.4.14"
+  }
+}
